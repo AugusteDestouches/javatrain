@@ -62,7 +62,7 @@ public class Vigenere {
                     System.out.println("зашифрованный текст: " + encrypted);
                     System.out.println(mode);
                     break;
-                // Шифрование текста
+                
                 case "1":
                     String decrypted = cipher.decrypt(plaintext, key);
                     System.out.println("расшифрованный текст: " + decrypted);
